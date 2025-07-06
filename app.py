@@ -5,7 +5,7 @@ from google.api_core import exceptions
 import time
 import random
 import pandas as pd
-from api_key import api_key
+api_key = st.secrets["api_key"]
 import markdown
 import base64
 from io import BytesIO
